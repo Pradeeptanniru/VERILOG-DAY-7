@@ -1,0 +1,13 @@
+//DESIGN CODE
+module priorityencoder(
+    input a,b,c,d,
+    output y0,y1
+    );
+and(w1,b,!c);
+or(y0,w1,d);
+or(y1,c,d);    
+endmodule
+
+
+
+
